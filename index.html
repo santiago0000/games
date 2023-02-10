@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <h1>Games!</h1>
     <h3>Made by yours truly!</h3>
     <p class="p2">This website is named "games" even though you and me both know that there will be no other games until I stop being lazy...</p>
     <hr>
 
+    <p><span id="userName"></span></p>
+
+    <button id="dateBtn" onclick="showDate()">Show Date</button>
+
     <h2>2048</h2>
     <ul>
-        <li><img src="./assets/2048.png" class="gameIMG"></li>
+        <li><img src="./assets/NEW_2048.png" class="gameIMG"></li>
         <li><p>2048 is a single-player sliding tile puzzle video game written by Italian web developer Gabriele Cirulli and published on GitHub. The objective of the game is to slide numbered tiles on a grid to combine them to create a tile with the number 2048; however, one can continue to play the game after reaching the goal, creating tiles with larger numbers.</p></li>
         <li><button class="gameBtn"><a href="./html/2048/2048.html">Play 2048!</a></button></li>
     </ul>
+
+    <h2>Minesweeper</h2>
+    <ul>
+        <li><img src="./assets/Minesweeper.png" class="gameIMG"></li>
+        <li><p>Minesweeper is a logic puzzle video game genre generally played on personal computers. The game features a grid of clickable squares, with hidden "mines" scattered throughout the board. The objective is to clear the board without detonating any mines, with help from clues about the number of neighboring mines in each field.</p></li>
+        <li><button class="gameBtn"><a href="./html/minesweeper/minesweeper.html">Play Minesweeper!</a></button></li>
+    </ul>
+    
+    <script src="./js/index.js"></script>
 </body>
 </html>

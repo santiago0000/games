@@ -39,8 +39,8 @@ hr{
 }
 
 .gameBtn{
-    height: 30px;
-    width: 120px;
+    height: 50px;
+    width: 140px;
     border-radius: 10px;
     border: none;
     background-color: lightgray;
@@ -48,13 +48,25 @@ hr{
     font-size: large;
 }
 
+#dateBtn{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
 .homeBtn{
     height: 20px;
     width: 80px;
     margin-top: 10px;
     border-radius: 10px;
     border: none;
-    background-color: #bbada0;
+    background-color: lightgray;
     font-weight: bold;
 }
 
