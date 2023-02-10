@@ -1,5 +1,5 @@
 // shoutout kristian og håvard
-
+// username
 let username = localStorage.getItem("userName"); 
 
 
@@ -18,9 +18,7 @@ if(!username) {
 document.getElementById("userName").innerHTML = "Username: " + username;
 localStorage.setItem("userName", username);
 
-
-
-
+// klokke
 function showDate(){
     const today = new Date();
     let d = today.getDate();
